@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <pthread.h>
-
-#include "uv.h"
+#include <uv.h>
 
 /* Libuv multiple loops + thread communication example. Written by Kristian
  * Evensen <kristian.evensen@gmail.com>  */
